@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KaplanMeierEstimator", "KaplanMeierEstimator\KaplanMeierEstimator.csproj", "{847119CB-6C2D-473F-A22F-7940BD14E298}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KaplanMeierEstimator.Common", "KaplanMeierEstimator.Common\KaplanMeierEstimator.Common.csproj", "{6DD1A75A-AEDE-403C-9190-ED1B2058DCBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KaplanMeierEstimator.Console", "KaplanMeierEstimator.Console\KaplanMeierEstimator.Console.csproj", "{4D48F608-E283-46E7-99EF-DBC7A55FA095}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KaplanMeierEstimator.IO", "KaplanMeierEstimator.IO\KaplanMeierEstimator.IO.csproj", "{4F2D8FCC-9C1C-4745-87E9-CAA8C88163CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KaplanMeierEstimatorWPF", "KaplanMeierEstimatorWPF\KaplanMeierEstimatorWPF.csproj", "{39B8D8A7-42CB-4644-B907-F94423A285A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{847119CB-6C2D-473F-A22F-7940BD14E298}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{847119CB-6C2D-473F-A22F-7940BD14E298}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{847119CB-6C2D-473F-A22F-7940BD14E298}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{847119CB-6C2D-473F-A22F-7940BD14E298}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DD1A75A-AEDE-403C-9190-ED1B2058DCBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DD1A75A-AEDE-403C-9190-ED1B2058DCBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DD1A75A-AEDE-403C-9190-ED1B2058DCBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DD1A75A-AEDE-403C-9190-ED1B2058DCBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D48F608-E283-46E7-99EF-DBC7A55FA095}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D48F608-E283-46E7-99EF-DBC7A55FA095}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D48F608-E283-46E7-99EF-DBC7A55FA095}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D48F608-E283-46E7-99EF-DBC7A55FA095}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F2D8FCC-9C1C-4745-87E9-CAA8C88163CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F2D8FCC-9C1C-4745-87E9-CAA8C88163CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F2D8FCC-9C1C-4745-87E9-CAA8C88163CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F2D8FCC-9C1C-4745-87E9-CAA8C88163CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39B8D8A7-42CB-4644-B907-F94423A285A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39B8D8A7-42CB-4644-B907-F94423A285A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39B8D8A7-42CB-4644-B907-F94423A285A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39B8D8A7-42CB-4644-B907-F94423A285A0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://daliaa.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = KaplanMeierEstimator.Common\\KaplanMeierEstimator.Common.csproj
+		SccProjectName1 = KaplanMeierEstimator.Common
+		SccLocalPath1 = KaplanMeierEstimator.Common
+		SccProjectUniqueName2 = KaplanMeierEstimator.Console\\KaplanMeierEstimator.Console.csproj
+		SccProjectName2 = KaplanMeierEstimator.Console
+		SccLocalPath2 = KaplanMeierEstimator.Console
+		SccProjectUniqueName3 = KaplanMeierEstimator.IO\\KaplanMeierEstimator.IO.csproj
+		SccProjectName3 = KaplanMeierEstimator.IO
+		SccLocalPath3 = KaplanMeierEstimator.IO
+		SccProjectUniqueName4 = KaplanMeierEstimator\\KaplanMeierEstimator.csproj
+		SccProjectName4 = KaplanMeierEstimator
+		SccLocalPath4 = KaplanMeierEstimator
+		SccProjectUniqueName5 = KaplanMeierEstimatorWPF\\KaplanMeierEstimatorWPF.csproj
+		SccProjectName5 = KaplanMeierEstimatorWPF
+		SccLocalPath5 = KaplanMeierEstimatorWPF
+	EndGlobalSection
+EndGlobal

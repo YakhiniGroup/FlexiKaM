@@ -1,0 +1,54 @@
+﻿@model KaplanMeierEstimator.Models.EstimateJob
+
+@{
+    ViewBag.Title = "NewJob";
+}
+
+<h2>NewJob</h2>
+
+
+<form action="" method="post" enctype="multipart/form-data">
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h4>EstimateJob</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            @*<b>Patients File:</b><input type="file" /><br /><br />
+                <b>Genes File:</b><input type="file" /><br /><br />
+                Choose output: @Html.DropDownList("Strategies") Percentage: <input type="number" min="1" max="50" value="20"/>
+                <br /><br /><br /><br />*@
+
+            <div>
+                @Html.LabelFor(m => m.PatientsList)
+                @Html.TextBoxFor(m => m.PatientsList, new { type = "file" })
+            </div>
+
+            <div>
+                @Html.LabelFor(m => m.GenesList)
+                @Html.TextBoxFor(m => m.GenesList, new { type = "file" })
+            </div>
+
+            <div>
+                <b>Choose output:</b>
+                @Html.DropDownListFor(m => m.PercentStrategy, ViewBag.Strategies as IEnumerable<SelectListItem>, "value")
+
+                @Html.LabelFor(m => m.Percent)
+                @Html.TextBoxFor(m => m.Percent, new { type = "number", @min = "1", @max = "50", @Value = "20" })
+            </div>
+
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+</form>
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
